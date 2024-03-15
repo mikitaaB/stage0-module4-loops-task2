@@ -10,8 +10,8 @@ public class Multiplication {
                 counter++;
             }
         } else {
-            while (counter >= multiplyByAndToInclusive) {
-                int multiplied = counter * multiplyByAndToInclusive;
+            while (counter > multiplyByAndToInclusive) {
+                int multiplied = counter * multiplyByAndToInclusive * -1;
                 System.out.println(multiplied);
                 counter--;
             }
